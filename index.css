@@ -1,0 +1,95 @@
+body{
+    background-image: url(blackjack.jpg);
+    /* background-repeat:no-repeat; */
+    background-size:cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+}
+
+h1{
+    font-weight: bold;
+    font-size:50px;
+    color: rgb(237, 191, 9);
+}
+
+p{
+    font-size: 20px;
+    font-weight:520;
+    color: rgb(255, 255, 255);
+}
+
+#message-el{
+    font-weight: 500;
+    font-style: italic;
+}
+
+#Start{
+    font-size:22px;
+    border-radius: 5px;
+    border:none;
+    color: rgb(7, 105, 56);
+    border-color: azure;
+    font-weight: 700;
+    background-color: rgb(230, 195, 18);
+    width:220px;
+    height:50px;
+    position: inherit;
+    left:120px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#start:hover{
+    transform: scale(1.1);
+}
+
+#New_Card,#stay{
+    font-size:22px;
+    border-radius: 5px;
+    border:none;
+    color: rgb(7, 105, 56);
+    border-color: azure;
+    /* border-width: 5px; */
+    font-weight: 700;
+    background-color: rgb(230, 195, 18);
+    width:220px;
+    height:50px;
+    position:inherit;
+    left:-105px;
+    top:60px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#New_Card:hover{
+    transform: scale(1.1);
+}
+
+#Stay:hover{
+    transform: scale(1.1);
+}
+
+#dealer-cards img{
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#dealer-cards img:hover{
+    transform: scale(1.1);
+}
+
+
+#my-cards img{
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#my-cards img:hover{
+    transform: scale(1.1);
+}
